@@ -14,5 +14,12 @@
  "shallow_clone": true,
  "socketio_port": 9000,
  "use_redis_auth": false,
- "webserver_port": 8000
+ "webserver_port": 8000,
+ "mail_server": "sandbox.smtp.mailtrap.io",
+ "mail_port": 587,
+ "mail_login": "85cd18efa7940f",
+ "mail_password": "8cdbaa37a79d5a",
+ "auto_email_id": "85cd18efa7940f@sandbox.smtp.mailtrap.io",
+ "mail_use_tls": true,
+ "mail_use_ssl": false
 }

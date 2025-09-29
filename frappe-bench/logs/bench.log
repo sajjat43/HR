@@ -8,3 +8,11 @@
 2025-09-29 13:04:13,913 WARNING cd /home/nayem/projects/HR/frappe-bench && /home/nayem/projects/HR/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nayem/projects/HR/frappe-bench/apps/frappe  executed with exit code 1
 2025-09-29 13:04:14,916 ERROR There was a problem while creating frappe-bench
 2025-09-29 13:04:14,916 WARNING /home/nayem/projects/HR/venv/bin/bench init frappe-bench --skip-redis-config-generation executed with exit code 1
+2025-09-29 15:26:49,076 INFO /home/sajjat43/.local/bin/bench restart
+2025-09-29 15:26:49,076 WARNING Command not being executed in bench directory
+2025-09-29 15:26:59,058 INFO /home/sajjat43/.local/bin/bench restart
+2025-09-29 15:26:59,059 WARNING Command not being executed in bench directory
+2025-09-29 15:27:21,503 INFO /home/sajjat43/.local/bin/bench --help
+2025-09-29 15:27:21,503 WARNING Command not being executed in bench directory
+2025-09-29 15:30:40,176 INFO /home/sajjat43/.local/bin/bench --site hrms.localhost console
+2025-09-29 15:30:40,176 WARNING Command not being executed in bench directory
