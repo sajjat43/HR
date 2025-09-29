@@ -121,7 +121,7 @@ def update_erpnext_roles(disable: bool = True):
 
 
 def set_app_logo():
-	frappe.db.set_single_value("Navbar Settings", "app_logo", "file:///home/sajjat43/Downloads/rokify.svg")
+	frappe.db.set_single_value("Navbar Settings", "app_logo", "/assets/hrms/images/rokify-logo.svg")
 
 
 def get_erpnext_roles() -> set:

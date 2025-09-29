@@ -1,0 +1,10 @@
+2025-09-29 13:03:57,904 DEBUG cd frappe-bench && python3 -m venv env
+2025-09-29 13:03:59,875 DEBUG cd frappe-bench && /home/nayem/projects/HR/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-29 13:04:00,236 DEBUG cd frappe-bench && /home/nayem/projects/HR/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-09-29 13:04:01,229 LOG Getting frappe
+2025-09-29 13:04:01,229 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-09-29 13:04:05,715 LOG Installing frappe
+2025-09-29 13:04:05,717 DEBUG cd /home/nayem/projects/HR/frappe-bench && /home/nayem/projects/HR/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nayem/projects/HR/frappe-bench/apps/frappe 
+2025-09-29 13:04:13,913 WARNING cd /home/nayem/projects/HR/frappe-bench && /home/nayem/projects/HR/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nayem/projects/HR/frappe-bench/apps/frappe  executed with exit code 1
+2025-09-29 13:04:14,916 ERROR There was a problem while creating frappe-bench
+2025-09-29 13:04:14,916 WARNING /home/nayem/projects/HR/venv/bin/bench init frappe-bench --skip-redis-config-generation executed with exit code 1
