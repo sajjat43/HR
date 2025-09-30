@@ -1,0 +1,65 @@
+/* Hide ERPNext from Application Selector - CSS Version */
+
+/* Hide ERPNext from app selector dropdown */
+.app-selector .dropdown-item[href*="erpnext"],
+.app-selector .dropdown-item[data-app*="erpnext"],
+.app-selector-item[data-app*="erpnext"],
+.app-selector-item[data-app-name*="erpnext"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Hide ERPNext from any dropdown or menu */
+.dropdown-item:contains("ERPNext"),
+.app-item:contains("ERPNext"),
+.app-selector-item:contains("ERPNext") {
+    display: none !important;
+}
+
+/* Hide ERPNext from navigation */
+.nav-item:contains("ERPNext"),
+.nav-link:contains("ERPNext") {
+    display: none !important;
+}
+
+/* Hide ERPNext from any list items */
+li:contains("ERPNext"),
+.list-item:contains("ERPNext") {
+    display: none !important;
+}
+
+/* Additional selectors for ERPNext hiding */
+[data-app="erpnext"],
+[data-app-name="erpnext"],
+[href*="/app/erpnext"],
+[href*="erpnext"] {
+    display: none !important;
+}
+
+/* Hide ERPNext from app selector specifically */
+.app-selector .dropdown-menu .dropdown-item:has-text("ERPNext"),
+.app-selector .dropdown-menu .dropdown-item[data-app="erpnext"] {
+    display: none !important;
+}
+
+/* Hide ERPNext from any app-related containers */
+.app-container:has-text("ERPNext"),
+.app-list:has-text("ERPNext") {
+    display: none !important;
+}
+
+/* Ensure ERPNext is hidden from all possible selectors */
+*:has-text("ERPNext") {
+    display: none !important;
+}
+
+/* Hide ERPNext from the main app selector */
+.app-selector .dropdown-item[href*="erpnext"],
+.app-selector .dropdown-item[data-app*="erpnext"],
+.app-selector-item[data-app*="erpnext"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+

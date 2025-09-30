@@ -19,6 +19,9 @@ add_to_apps_screen = [
 	}
 ]
 
+# Hide ERPNext from app screen
+hide_apps = ["erpnext"]
+
 # Includes in <head>
 # ------------------
 
@@ -26,8 +29,12 @@ add_to_apps_screen = [
 # app_include_css = "/assets/hrms/css/hrms.css"
 app_include_js = [
 	"hrms.bundle.js",
+	"hide_erpnext.js",
 ]
-app_include_css = "hrms.bundle.css"
+app_include_css = [
+	"hrms.bundle.css",
+	"hide_erpnext.css",
+]
 
 # website
 
